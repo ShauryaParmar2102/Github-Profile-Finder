@@ -9,7 +9,7 @@ A simple web application that allows users to search for GitHub profiles by user
 - 📅 Display account creation date
 - 📦 Show public repositories
 - 👥 Show followers and following
-- 🏢 Display company information
+- 🏢 Display company information  
 - 📍 Display location
 - 🔗 Display website
 - 𝕏 Display X/Twitter username
