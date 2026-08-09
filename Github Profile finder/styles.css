@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+                 'Lucida Grande', 'Lucida Sans Unicode',
+                 Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: blue;
+}
+
+/* Main app container */
+.container {
+    padding: 20px;
+    width: 500px;
+    background-color: lightblue;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Whole user profile section */
+.container .user-details {
+    padding: 2px;
+    margin-top: 25px;
+}
+
+/* Profile image container */
+.container .user-details .img-box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    background: red;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    float: left;
+}
+
+.container .search-box i {
+    color: red;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.container .search-box input {
+    all:unset;
+    height: 50px;
+    width:340px;
+    border-radius: 30px;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    word-spacing: -3px;
+}
+
+
+
+/* Profile image */
+.container .user-details .img-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container .search-box {
+    padding: 2px;
+    height: 50px;
+    width: 100%;
+    border-radius: 30px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.container .user-details .name {
+    position: relative;
+    left: 13px;
+    color: black;
+    margin-top: 7px;
+    font-size: 22px;
+}
+
+.container .user-details .username {
+    position: relative;
+    left: 13px;
+    font-size: blue;
+}
+
+/* Space out Repos, Followers and Following */
+.container .user-profile {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+/* Centre each statistic */
+.container .user-profile div {
+    text-align: center;
+}
+
+/* Add space between the number and label */
+.container .user-profile h2 {
+    margin-bottom: 5px;
+}
+
+/* Space out company, location, website and X */
+.container .user-other-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
