@@ -38,5 +38,5 @@ This project uses the GitHub Users API.
 
 --
 
-## Made by Shaurya Parmar ☕
+# Made by Shaurya Parmar ☕
 
