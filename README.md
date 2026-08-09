@@ -36,7 +36,7 @@ A simple web application that allows users to search for GitHub profiles by user
 
 This project uses the GitHub Users API.
 
---
+## Author
 
 Made by Shaurya Parmar ☕
 
